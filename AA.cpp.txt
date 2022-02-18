@@ -1,4 +1,74 @@
-123456789
-2131231
-444564
-4564546
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="600dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="start">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="start">
+            <TextView
+        android:id="@+id/cityone"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="@string/城市一"
+        android:textSize="50sp"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dpvv"
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="start">
+            <TextView
+        android:id="@+id/citythree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/城市二"
+        android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="start">
+            <TextView
+        android:id="@+id/cityfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/城市三"
+        android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="start">
+            <TextView
+        android:id="@+id/cityfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/城市四"
+        android:textSize="50sp" />
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="250dp"
+        android:layout_height="81dp"
+        android:text="@string/btn"
+        android:textSize="60dp"
+        android:gravity="bottom"/>
+</LinearLayout>
